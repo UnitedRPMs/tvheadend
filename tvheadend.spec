@@ -24,9 +24,6 @@ Patch3:         %{name}-4.2.1-dtv_scan_tables.patch
 # Enforcing system crypto policies, see
 # https://fedoraproject.org/wiki/Packaging:CryptoPolicies
 Patch4:         %{name}-4.2.1-crypto_policies.patch
-# Fix systemd detection
-Patch5:         %{name}-4.2.1-systemd.patch
-
 
 BuildRequires:  bzip2
 BuildRequires:  gcc
