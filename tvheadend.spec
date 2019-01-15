@@ -2,7 +2,7 @@
 %global tvheadend_group video
 
 Name:           tvheadend
-Version:        4.2.7
+Version:        4.2.8
 Release:        7%{?dist}
 Summary:        TV streaming server and digital video recorder
 
@@ -164,6 +164,9 @@ exit 0
 
 
 %changelog
+
+* Mon Jan 14 2019 Unitedrpms Project <unitedrpms AT protonmail DOT com> 4.2.8-7
+- Updated to 4.2.8
 
 * Sun Oct 14 2018 Unitedrpms Project <unitedrpms AT protonmail DOT com> 4.2.7-7
 - Updated to 4.2.7
